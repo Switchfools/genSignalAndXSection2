@@ -1,0 +1,11 @@
+import model MSSM_SLHA2
+
+define chargino = x1+ x1-
+
+generate p p > chargino n2 j j QCD=0
+add process p p > chargino n1 j j QCD=0
+add process p p > n2 n1 j j QCD=0
+add process p p > n2 n2 j j QCD=0
+add process p p > chargino chargino j j QCD=0
+
+output outputFolder -f
