@@ -1,11 +1,5 @@
-import model MSSM_SLHA2
+import model SM_HeavyN_UFO
 
-define chargino = x1+ x1-
-
-generate p p > chargino n2 j j QCD=0
-add process p p > chargino n1 j j QCD=0
-add process p p > n2 n1 j j QCD=0
-add process p p > n2 n2 j j QCD=0
-add process p p > chargino chargino j j QCD=0
+generate p p >  ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7
 
 output outputFolder -f

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # check input arguments
-if [ "$#" -ne 3 ]; then
+if [ "$#" -ne 4 ]; then
     echo "Need 4 parameters to run: n1, n2, n3, and j0"
     exit 2
 fi
@@ -29,12 +29,12 @@ mkdir -p $outputFolder
 sed -i "s|outputFolder|${outputFolder}|g" ${currentFolder}currentRun/mgFile.mg5
 
 echo "launch ${outputFolder}" >> ${currentFolder}currentRun/mgFile.mg5
-echo "set mneu1 ${n1}" >> ${currentFolder}currentRun/mgFile.mg5
-echo "set mneu2 ${n2}" >> ${currentFolder}currentRun/mgFile.mg5
-echo "set mneu3 ${n3}" >> ${currentFolder}currentRun/mgFile.mg5
-echo "set mJ00 ${J0}" >> ${currentFolder}currentRun/mgFile.mg5
+echo "set mN1 ${n1}" >> ${currentFolder}currentRun/mgFile.mg5
+echo "set mN2 ${n2}" >> ${currentFolder}currentRun/mgFile.mg5
+echo "set mN3 ${n3}" >> ${currentFolder}currentRun/mgFile.mg5
+echo "set MJ ${J0}" >> ${currentFolder}currentRun/mgFile.mg5
 echo "set nevents 10000" >> ${currentFolder}currentRun/mgFile.mg5
-echo "set deltaeta 3.8" >> ${currentFolder}currentRun/mgFile.mg5
+echo "set deltaeta 2.4" >> ${currentFolder}currentRun/mgFile.mg5
 
 #log the output for post processing
 echo "running mg5_aMC ${currentFolder}currentRun/mgFile.mg5"
@@ -54,8 +54,8 @@ echo "xsection = $xsection, xsectionerr = $xsectionerr and nevents = $nevents"
 echo "saving results to ${outputFolder}xsection.dat"
 
 #write them to file
-echo "n2,ch1,n1,xsection,xsectionerr,nevents" > "${outputFolder}xsection.dat"
-echo "${n2},${ch1},${n1},${xsection},${xsectionerr},${nevents}" >> "${outputFolder}xsection.dat"
+echo "n1,n2,n3,j0,xsection,xsectionerr,nevents" > "${outputFolder}xsection.dat"
+echo "${n1},${n2},${n3},${j0},${xsection},${xsectionerr},${nevents}" >> "${outputFolder}xsection.dat"
 
 # remove temp logXsection file
 rm ${currentFolder}logXSection.txt

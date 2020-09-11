@@ -1,11 +1,12 @@
 import model SM_HeavyN_UFO
 
-generate p p >  ta+ ta+ ta- ta- vta~ vta j0 QCD=0 QED<=7
+generate p p >  ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7
 
-output /home/nvergara/genSignalAndXSection2/results/xSection/n2_100_ch1_75_n1_50/ -f
-launch /home/nvergara/genSignalAndXSection2/results/xSection/n2_100_ch1_75_n1_50/
-set mneu1 50
-set mneu2 100
-set mch1 75
-set nevents 1000
-set deltaeta 3.8
+output /home/nvergara/genSignalAndXSection2/results/xSection/n1_510.0_n2_610.0_n3_710.0_j0_410.0/ -f
+launch /home/nvergara/genSignalAndXSection2/results/xSection/n1_510.0_n2_610.0_n3_710.0_j0_410.0/
+set mN1 510.0
+set mN2 610.0
+set mN3 710.0
+set MJ 
+set nevents 10000
+set deltaeta 2.4

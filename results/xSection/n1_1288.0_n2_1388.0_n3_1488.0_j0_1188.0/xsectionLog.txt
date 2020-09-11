@@ -1,0 +1,61 @@
+Script started on Sun Sep  6 12:19:52 2020
+[?1034h************************************************************
+*                                                          *
+*                     W E L C O M E to                     *
+*              M A D G R A P H 5 _ a M C @ N L O           *
+*                                                          *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 2.6.3.2               2018-06-22         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                            and                           *
+*            http://amcatnlo.web.cern.ch/amcatnlo/         *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*           Type 'tutorial' to learn how MG5 works         *
+*    Type 'tutorial aMCatNLO' to learn how aMC@NLO works   *
+*    Type 'tutorial MadLoop' to learn how MadLoop works    *
+*                                                          *
+************************************************************
+load MG5 configuration from ../../../usr/local/HEP/MG5_aMC_v2_6_3_2/input/mg5_configuration.txt 
+set fastjet to /usr/local/HEP/FASTJET3.1.2/bin/fastjet-config
+set lhapdf to /usr/local/HEP/MG5_aMC_v2_6_3_2/HEPTools/lhapdf6/bin/lhapdf-config
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+Using default eps viewer "evince". Set another one in ./input/mg5_configuration.txt
+Using default web browser "firefox". Set another one in ./input/mg5_configuration.txt
+import /home/nvergara/genSignalAndXSection2/xSection/currentRun/mgFile.mg5
+The import format was not given, so we guess it as command
+import model SM_HeavyN_UFO
+INFO: load particles 
+INFO: load vertices 
+INFO: The model has interaction violating the charge: LeptonNumber 
+INFO: Change particles name to pass to MG5 convention 
+Defined multiparticle p = g u c d s u~ c~ d~ s~
+Defined multiparticle j = g u c d s u~ c~ d~ s~
+Defined multiparticle l+ = e+ mu+
+Defined multiparticle l- = e- mu-
+Defined multiparticle vl = ve vm vt
+Defined multiparticle vl~ = ve~ vm~ vt~
+[1;34mPass the definition of 'j' and 'p' to 5 flavour scheme.[0m
+Defined multiparticle all = g u c d s b u~ c~ d~ s~ b~ a ve vm vt e- mu- ta- ve~ vm~ vt~ e+ mu+ ta+ t t~ z w+ h j0 ax w- n1 n2 n3
+generate p p >  ta+ ta+ ta- ta- vta~ vta j0 QCD=0 QED<=7
+[1;31mCommand "import /home/nvergara/genSignalAndXSection2/xSection/currentRun/mgFile.mg5" interrupted in sub-command:
+"generate p p >  ta+ ta+ ta- ta- vta~ vta j0 QCD=0 QED<=7" with error:
+InvalidCmd : No particle vta~ in model[0m
+[1;34mcommand not executed: [0m
+[1;34mcommand not executed: output /home/nvergara/genSignalAndXSection2/results/xSection/n1_1288.0_n2_1388.0_n3_1488.0_j0_1188.0/ -f[0m
+[1;34mcommand not executed: launch /home/nvergara/genSignalAndXSection2/results/xSection/n1_1288.0_n2_1388.0_n3_1488.0_j0_1188.0/[0m
+[1;34mcommand not executed: set mN1 1288.0[0m
+[1;34mcommand not executed: set mN2 1388.0[0m
+[1;34mcommand not executed: set mN3 1488.0[0m
+[1;34mcommand not executed: set MJ [0m
+[1;34mcommand not executed: set nevents 10000[0m
+[1;34mcommand not executed: set deltaeta 2.4[0m
+quit
