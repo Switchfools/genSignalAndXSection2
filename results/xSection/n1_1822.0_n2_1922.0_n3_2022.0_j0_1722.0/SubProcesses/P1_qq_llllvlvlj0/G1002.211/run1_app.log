@@ -1,0 +1,493 @@
+ Process in group number            1
+ A PDF is used, so alpha_s(MZ) is going to be modified
+ Old value of alpha_s from param_card:   0.11839999999999999     
+  ****************************************
+ 
+       NNPDFDriver version 1.0.3
+   Grid: NNPDF23_lo_as_0130_qed_mem0.grid
+  ****************************************
+ New value of alpha_s from PDF nn23lo1:  0.13000000000000000     
+ Define smin to   1600.0000000000000     
+ Define smin to   1600.0000000000000     
+ Define smin to   1600.0000000000000     
+ *****************************************************
+ *               MadGraph/MadEvent                   *
+ *        --------------------------------           *
+ *          http://madgraph.hep.uiuc.edu             *
+ *          http://madgraph.phys.ucl.ac.be           *
+ *          http://madgraph.roma2.infn.it            *
+ *        --------------------------------           *
+ *                                                   *
+ *          PARAMETER AND COUPLING VALUES            *
+ *                                                   *
+ *****************************************************
+
+  External Params
+  ---------------------------------
+  
+ mdl_VeN1 =    1.0000000000000000     
+ mdl_VeN2 =    0.0000000000000000     
+ mdl_VeN3 =    0.0000000000000000     
+ mdl_VmuN1 =    0.0000000000000000     
+ mdl_VmuN2 =    1.0000000000000000     
+ mdl_VmuN3 =    0.0000000000000000     
+ mdl_VtaN1 =    0.0000000000000000     
+ mdl_VtaN2 =    0.0000000000000000     
+ mdl_VtaN3 =    1.0000000000000000     
+ mdl_VN1N1 =    1.0000000000000000     
+ mdl_VN1N2 =    1.0000000000000000     
+ mdl_VN1N3 =    1.0000000000000000     
+ mdl_VN2N2 =    1.0000000000000000     
+ mdl_VN2N3 =    1.0000000000000000     
+ mdl_VN3N3 =    1.0000000000000000     
+ aEWM1 =    127.90000000000001     
+ mdl_Gf =    1.1663700000000000E-005
+ aS =   0.11839999999999999     
+ mdl_ymt =    172.00000000000000     
+ mdl_vevf =    50.000000000000000     
+ mdl_MZ =    91.187600000000003     
+ mdl_MT =    172.00000000000000     
+ mdl_MH =    125.00000000000000     
+ mdl_mN1 =    1822.0000000000000     
+ mdl_mN2 =    1922.0000000000000     
+ mdl_mN3 =    2022.0000000000000     
+ mdl_MJ =    91.187600000000003     
+ mdl_MAx =    173.04800000000000     
+ mdl_WZ =    2.4952000000000001     
+ mdl_WW =    2.0850000000000000     
+ mdl_WT =    1.5083359999999999     
+ mdl_WH =    4.0699999999999998E-003
+ mdl_WN1 =   0.30299999999999999     
+ mdl_WN2 =    1.5000000000000000     
+ mdl_WN3 =    12.300000000000001     
+ mdl_WJ =    2.4952000000000001     
+ mdl_WAx =    4.1700000000000001E-003
+  Internal Params
+  ---------------------------------
+  
+ mdl_vevf__exp__2 =    2500.0000000000000     
+ mdl_sqrt__vevf__exp__2 =    50.000000000000000     
+ mdl_muJ =    50.000000000000000     
+ mdl_MZ__exp__2 =    8315.1783937600012     
+ mdl_MZ__exp__4 =    69142191.720053151     
+ mdl_sqrt__2 =    1.4142135623730951     
+ mdl_MJ__exp__2 =    8315.1783937600012     
+ mdl_muJ__exp__2 =    2500.0000000000000     
+ mdl_lamJ =    4.3260713575040004     
+ mdl_MH__exp__2 =    15625.000000000000     
+ mdl_complexi =  (  0.0000000000000000     ,  1.0000000000000000     )
+ mdl_aEW =    7.8186082877247844E-003
+ mdl_MW =    79.824359746197842     
+ mdl_sqrt__aEW =    8.8422894590285753E-002
+ mdl_ee =   0.31345100004952897     
+ mdl_MW__exp__2 =    6371.9284088904105     
+ mdl_sw2 =   0.23369913342182447     
+ mdl_cw =   0.87538612427783857     
+ mdl_sqrt__sw2 =   0.48342438232036300     
+ mdl_sw =   0.48342438232036300     
+ mdl_g1 =   0.35807170271074895     
+ mdl_gN =   0.64839716719502682     
+ mdl_gw =   0.64839716719502682     
+ mdl_vev =    246.22056907348590     
+ mdl_vev__exp__2 =    60624.568634871241     
+ mdl_lam =   0.12886689630821144     
+ mdl_yt =   0.98791394091683138     
+ mdl_muH =    88.388347648318444     
+ mdl_I2a33 =  ( 0.98791394091683138     ,  0.0000000000000000     )
+ mdl_I3a33 =  ( 0.98791394091683138     ,  0.0000000000000000     )
+ mdl_ee__exp__2 =    9.8251529432049817E-002
+ mdl_sw__exp__2 =   0.23369913342182450     
+ mdl_cw__exp__2 =   0.76630086657817542     
+  Internal Params evaluated point by point
+  ----------------------------------------
+  
+ mdl_sqrt__aS =   0.34409301068170506     
+ mdl_G__exp__2 =    1.4878582807401259     
+  Couplings of SM_HeavyN_UFO
+  ---------------------------------
+  
+         GC_1 =  -0.00000E+00  -0.10448E+00
+         GC_2 =   0.00000E+00   0.20897E+00
+         GC_3 =  -0.00000E+00  -0.31345E+00
+         GC_4 =   0.00000E+00   0.31345E+00
+        GC_26 =   0.00000E+00   0.45849E+00
+        GC_27 =  -0.00000E+00  -0.28380E+00
+        GC_28 =   0.00000E+00   0.28380E+00
+        GC_30 =   0.00000E+00   0.56760E+00
+        GC_35 =  -0.00000E+00  -0.28850E-01
+        GC_37 =   0.00000E+00   0.17310E+00
+        GC_39 =   0.00000E+00  -0.19725E+00
+        GC_40 =   0.00000E+00   0.37035E+00
+        GC_80 =   0.00000E+00   0.67543E+02
+       GC_107 =  -0.00000E+00  -0.74070E+00
+       GC_109 =  -0.00000E+00  -0.74070E+00
+       GC_111 =  -0.00000E+00  -0.74070E+00
+       GC_113 =  -0.00000E+00  -0.74070E+00
+       GC_115 =  -0.00000E+00  -0.74070E+00
+       GC_117 =  -0.00000E+00  -0.74070E+00
+       GC_119 =   0.00000E+00   0.00000E+00
+       GC_120 =   0.00000E+00   0.00000E+00
+       GC_122 =  -0.00000E+00  -0.00000E+00
+       GC_126 =   0.00000E+00   0.00000E+00
+       GC_127 =   0.00000E+00   0.00000E+00
+       GC_129 =  -0.00000E+00  -0.00000E+00
+       GC_133 =   0.00000E+00   0.45849E+00
+       GC_134 =   0.00000E+00   0.37035E+00
+       GC_136 =  -0.00000E+00  -0.82121E+01
+        GC_81 =   0.36440E+02   0.00000E+00
+        GC_82 =   0.38440E+02   0.00000E+00
+        GC_83 =   0.40440E+02   0.00000E+00
+
+ Collider parameters:
+ --------------------
+
+ Running at P P   machine @    13000.000000000000       GeV
+ PDF set = nn23lo1
+ alpha_s(Mz)= 0.1300 running at 2 loops.
+ alpha_s(Mz)= 0.1300 running at 2 loops.
+ Renormalization scale set on event-by-event basis
+ Factorization   scale set on event-by-event basis
+
+
+ getting user params
+Enter number of events and max and min iterations: 
+ Number of events and iterations         1000           5           3
+Enter desired fractional accuracy: 
+ Desired fractional accuracy:   0.10000000000000001     
+Enter 0 for fixed, 2 for adjustable grid: 
+Suppress amplitude (0 no, 1 yes)? 
+ Using suppressed amplitude.
+Exact helicity sum (0 yes, n = number/event)? 
+ Explicitly summing over helicities
+Enter Configuration Number: 
+Running Configuration Number: 1002
+ Using dconfig=         211
+ BW Setting            1           1           2           1           2           0           0
+ Attempting mappinvarients           1           9
+ Completed mapping           9
+ about to integrate           19        1000           5           3          19           1
+ Using non-zero grid deformation.
+ 19 dimensions   1000 events 19 invarients  5 iterations  1 config(s),  (0.99)
+ Using h-tuple random number sequence.
+ Error opening grid
+ Using Uniform Grid!          36
+ Using uniform alpha   1.0000000000000000     
+ Grid defined OK
+ Set CM energy to      13000.00
+ Mapping Graph        1002  to config        1002
+ Setting BW          -1           1   79.824359746197842     
+Setting grid   2    0.28499E-04   1
+ Setting BW          -3           2   79.824359746197842     
+Setting grid   4    0.28499E-04   1
+ Setting BW          -5           4   2022.0000000000000     
+Setting grid   6    0.22743E-01   1
+ Transforming s_hat 1/s           18   2.2742960059171601E-002   1600.0000000000000        168999999.99999997     
+1002   1   2   3   4   5   6   7   8   9  10  11  12  13  14
+  15  16  17  18  19
+ Masses: 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.912E+02
+Using random seed offsets  1002 :      1
+  with seed                   24
+ Ranmar initialization seeds         732        9398
+ 
+ ********************************************
+ * You are using the DiscreteSampler module *
+ *      part of the MG5_aMC framework       *
+ *         Author: Valentin Hirschi         *
+ ********************************************
+ 
+  Particle       3       4       5       6       7       8       9
+      Et >    10.0    10.0    10.0    10.0     0.0     0.0     0.0
+       E >     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+     Eta <     2.5     2.5     2.5     2.5    -1.0    -1.0    -1.0
+   xqcut:      0.0     0.0     0.0     0.0     0.0     0.0     0.0
+d R # 3  >    -0.0     0.4     0.4     0.4     0.0     0.0     0.0
+d R # 4  >    -0.0    -0.0     0.4     0.4     0.0     0.0     0.0
+d R # 5  >    -0.0    -0.0    -0.0     0.4     0.0     0.0     0.0
+d R # 6  >    -0.0    -0.0    -0.0    -0.0     0.0     0.0     0.0
+d R # 7  >    -0.0    -0.0    -0.0    -0.0    -0.0     0.0     0.0
+d R # 8  >    -0.0    -0.0    -0.0    -0.0    -0.0    -0.0     0.0
+s min # 3>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+s min # 4>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+s min # 5>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+s min # 6>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+s min # 7>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+s min # 8>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+xqcutij # 3>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+xqcutij # 4>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+xqcutij # 5>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+xqcutij # 6>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+xqcutij # 7>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+xqcutij # 8>     0.0     0.0     0.0     0.0     0.0     0.0     0.0
+ Requiring BW           -1           1
+ Requiring BW           -3           2
+ Excluding BW           -4           3
+ Requiring BW           -5           4
+ Excluding BW           -6           5
+ alpha_s for scale    3503.9545100892528       is    8.1128532773145787E-002
+ Added good helicity            1   1.5825737779762254       in event            1 local:           1
+ Added good helicity           21   5.1277524306787793E-003  in event            1 local:           1
+ Added good helicity           25   4.5394767980315764       in event            1 local:           1
+ Added good helicity           37  0.20960946383695694       in event            1 local:           1
+ Added good helicity           41   1.8314116394374785E-002  in event            1 local:           1
+ Added good helicity           61  0.15075701352453666       in event            1 local:           1
+ Added good helicity          193   18.620452703726503       in event            1 local:           1
+ Added good helicity          213   1.8990442018151417       in event            1 local:           1
+ Added good helicity          217   161.19108519665079       in event            1 local:           1
+ Added good helicity          229   60.670658751232764       in event            1 local:           1
+ Added good helicity          233   2.5672198857879405       in event            1 local:           1
+ Added good helicity          253   4.5456803385924855       in event            1 local:           1
+ Added good helicity            1   1.5825737779764422       in event            1 local:           1
+ Added good helicity           21   5.1277524306788044E-003  in event            1 local:           1
+ Added good helicity           25   4.5394767980315791       in event            1 local:           1
+ Added good helicity           37  0.20960946383699411       in event            1 local:           1
+ Added good helicity           41   1.8314116394374625E-002  in event            1 local:           1
+ Added good helicity           61  0.15075701352455970       in event            1 local:           1
+ Added good helicity          193   18.620452703725995       in event            1 local:           1
+ Added good helicity          213   1.8990442018151708       in event            1 local:           1
+ Added good helicity          217   161.19108519664960       in event            1 local:           1
+ Added good helicity          229   60.670658751234093       in event            1 local:           1
+ Added good helicity          233   2.5672198857879933       in event            1 local:           1
+ Added good helicity          253   4.5456803385925211       in event            1 local:           1
+ RESET CUMULATIVE VARIABLE
+ RESET CUMULATIVE VARIABLE
+ DiscreteSampler:: WARNING, the bin '16' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '17' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '19' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '20' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '22' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '23' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '28' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '29' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '31' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '32' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '34' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '35' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '40' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '41' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '43' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '44' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '46' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '47' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '52' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '53' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '55' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '56' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '58' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '59' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '64' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '65' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '67' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '68' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '70' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '71' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '76' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '77' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '79' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '80' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '82' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '83' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '88' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '89' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '91' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '92' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '94' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '95' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '100' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '101' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '103' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '104' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '106' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ DiscreteSampler:: WARNING, the bin '107' of dimension 'grouped_processes' will be used for reference even though it has been probed only 7 times (minimum requested is 10 times).
+ Iteration  1   Mean: 0.6954E-14 Abs mean: 0.6954E-14   Fluctuation:  0.695E-14   0.417E-13     0.0%
+  1    0.6954E-14 0.6954E-14 +- 0.6951E-14      2.45
+ Writing out events   4.5409603950705083E-016   2.4483442939023221     
+ Relative summed weights:
+  0.0000E+00  0.9995E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.2316E-07  0.0000E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.4642E-03  0.0000E+00  0.4991E-05  0.0000E+00  0.0000E+00  0.0000E+00
+  0.4153E-10  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.0000E+00  0.2487E-05  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+ Relative number of events:
+  0.0000E+00  0.1429E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.1429E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.2857E+00  0.0000E+00  0.1429E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.1429E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.0000E+00  0.1429E+00  0.0000E+00  0.0000E+00
+  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+ Events:
+           0           1           0           0           0           0
+           0           0           0           0           0           0
+           0           0           1           0           0           0
+           0           0           0           0           0           0
+           2           0           1           0           0           0
+           1           0           0           0           0           0
+           0           0           0           1           0           0
+           0           0           0           0           0           0
+ Iteration  2   Mean: 0.6524E-20 Abs mean: 0.6524E-20   Fluctuation:  0.637E-20   0.127E-16     3.9%
+  2    0.6524E-20 0.6524E-20 +- 0.6375E-20     43.70
+ Relative summed weights:
+  0.2256E-01  0.1489E-05  0.1176E-06  0.1724E-06  0.0000E+00  0.7322E-21
+  0.2035E-05  0.3416E-05  0.3556E-05  0.2232E-05  0.7332E-13  0.6051E-09
+  0.5712E-03  0.1336E-04  0.9768E+00  0.2234E-04  0.0000E+00  0.7078E-09
+  0.2779E-05  0.5938E-07  0.3641E-08  0.1113E-05  0.1738E-09  0.0000E+00
+  0.2400E-05  0.5367E-08  0.1984E-09  0.4556E-08  0.0000E+00  0.0000E+00
+  0.9237E-09  0.2210E-09  0.3881E-11  0.1772E-10  0.0000E+00  0.9915E-13
+  0.6237E-10  0.4400E-09  0.5275E-11  0.9292E-07  0.0000E+00  0.0000E+00
+  0.1682E-08  0.1070E-04  0.6230E-07  0.2239E-05  0.6917E-13  0.0000E+00
+ Relative number of events:
+  0.5600E-01  0.4850E-01  0.4200E-01  0.5050E-01  0.0000E+00  0.5000E-03
+  0.5600E-01  0.5200E-01  0.5450E-01  0.4450E-01  0.5000E-03  0.1500E-02
+  0.5350E-01  0.5150E-01  0.4000E-01  0.5050E-01  0.0000E+00  0.5000E-03
+  0.5300E-01  0.5350E-01  0.5000E-01  0.4350E-01  0.2000E-02  0.0000E+00
+  0.1800E-01  0.1200E-01  0.9000E-02  0.9500E-02  0.0000E+00  0.0000E+00
+  0.1900E-01  0.1250E-01  0.6000E-02  0.7000E-02  0.0000E+00  0.5000E-03
+  0.1050E-01  0.1650E-01  0.8000E-02  0.7500E-02  0.0000E+00  0.0000E+00
+  0.1900E-01  0.1700E-01  0.1200E-01  0.1100E-01  0.5000E-03  0.0000E+00
+ Events:
+         112          97          84         101           0           1
+         112         104         109          89           1           3
+         107         103          80         101           0           1
+         106         107         100          87           4           0
+          36          24          18          19           0           0
+          38          25          12          14           0           1
+          21          33          16          15           0           0
+          38          34          24          22           1           0
+ Iteration  3   Mean: 0.7027E-20 Abs mean: 0.7027E-20   Fluctuation:  0.684E-20   0.274E-16     3.7%
+  3    0.7027E-20 0.7027E-20 +- 0.6840E-20     61.56
+ Relative summed weights:
+  0.1635E-01  0.9733E+00  0.1200E-07  0.5015E-03  0.4632E-14  0.2104E-17
+  0.2768E-04  0.2942E-06  0.3794E-02  0.5902E-03  0.4745E-14  0.7768E-13
+  0.3809E-05  0.1264E-02  0.3387E-04  0.2676E-06  0.9329E-14  0.0000E+00
+  0.2533E-02  0.1606E-02  0.1605E-05  0.4610E-06  0.1951E-15  0.1081E-09
+  0.1785E-08  0.1088E-05  0.3412E-09  0.1763E-09  0.2053E-15  0.0000E+00
+  0.1077E-04  0.5898E-08  0.3263E-09  0.2876E-08  0.3553E-19  0.0000E+00
+  0.5691E-08  0.6109E-07  0.9453E-09  0.7260E-06  0.0000E+00  0.0000E+00
+  0.7489E-07  0.3795E-07  0.6136E-07  0.9540E-10  0.0000E+00  0.0000E+00
+ Relative number of events:
+  0.5200E-01  0.4875E-01  0.5325E-01  0.5275E-01  0.2500E-03  0.2500E-03
+  0.5625E-01  0.4875E-01  0.5075E-01  0.5175E-01  0.5000E-03  0.2500E-03
+  0.4925E-01  0.5125E-01  0.5125E-01  0.4950E-01  0.5000E-03  0.0000E+00
+  0.5350E-01  0.5550E-01  0.4950E-01  0.5075E-01  0.2500E-03  0.1250E-02
+  0.1100E-01  0.1200E-01  0.9750E-02  0.7750E-02  0.2500E-03  0.0000E+00
+  0.1375E-01  0.1550E-01  0.7250E-02  0.7500E-02  0.5000E-03  0.0000E+00
+  0.1400E-01  0.1450E-01  0.9500E-02  0.7500E-02  0.0000E+00  0.0000E+00
+  0.1275E-01  0.1625E-01  0.6750E-02  0.5500E-02  0.0000E+00  0.0000E+00
+ Events:
+         208         195         213         211           1           1
+         225         195         203         207           2           1
+         197         205         205         198           2           0
+         214         222         198         203           1           5
+          44          48          39          31           1           0
+          55          62          29          30           2           0
+          56          58          38          30           0           0
+          51          65          27          22           0           0
+ Accuracy:    1.025   0.100   0.568   3.260
+ Found           16  events.
+ Wrote            1  events.
+ Actual xsec    2.2424974018726652E-015
+ Correct abs xsec    2.2424974018726652E-015
+ Event xsec    2.2424974018726652E-015
+ Events wgts > 1:            0
+ % Cross section > 1:    0.0000000000000000        0.0000000000000000     
+ Iteration  4   Mean: 0.6077E-20 Abs mean: 0.6077E-20   Fluctuation:  0.435E-20   0.321E-16     4.7%
+  4    0.6077E-20 0.6077E-20 +- 0.4354E-20     64.08
+ Relative summed weights:
+  0.2097E-01  0.2262E-01  0.9066E-04  0.7090E-05  0.1318E-15  0.2212E-07
+  0.2970E-03  0.9353E-03  0.7426E-04  0.2791E+00  0.2411E-09  0.1716E-11
+  0.1651E-02  0.2123E-04  0.4972E-04  0.4040E-03  0.1528E-11  0.8716E-13
+  0.2763E-03  0.4183E-03  0.3254E-05  0.5456E-04  0.4298E-09  0.2006E-10
+  0.6602E+00  0.1708E-04  0.1805E-05  0.6402E-07  0.0000E+00  0.7957E-09
+  0.1580E-05  0.1133E-04  0.6757E-06  0.1667E-06  0.1505E-15  0.0000E+00
+  0.6859E-05  0.4949E-04  0.1776E-05  0.1661E-07  0.5455E-09  0.0000E+00
+  0.1511E-05  0.2017E-04  0.4139E-09  0.1272E-01  0.4568E-14  0.1630E-16
+ Relative number of events:
+  0.5125E-01  0.5550E-01  0.4913E-01  0.4950E-01  0.3750E-03  0.5000E-03
+  0.5125E-01  0.5000E-01  0.5125E-01  0.4938E-01  0.6250E-03  0.3750E-03
+  0.5087E-01  0.5200E-01  0.4662E-01  0.5000E-01  0.5000E-03  0.3750E-03
+  0.5275E-01  0.5100E-01  0.5275E-01  0.5075E-01  0.6250E-03  0.7500E-03
+  0.1562E-01  0.1475E-01  0.6750E-02  0.8125E-02  0.0000E+00  0.2500E-03
+  0.1500E-01  0.1275E-01  0.8500E-02  0.7500E-02  0.2500E-03  0.0000E+00
+  0.1312E-01  0.1300E-01  0.8375E-02  0.8125E-02  0.2500E-03  0.0000E+00
+  0.1537E-01  0.1750E-01  0.7750E-02  0.8500E-02  0.2500E-03  0.1250E-03
+ Events:
+         410         444         393         396           3           4
+         410         400         410         395           5           3
+         407         416         373         400           4           3
+         422         408         422         406           5           6
+         125         118          54          65           0           2
+         120         102          68          60           2           0
+         105         104          67          65           2           0
+         123         140          62          68           2           1
+ Accuracy:    1.162   0.100   0.445   6.816
+ Found           40  events.
+ Wrote            1  events.
+ Actual xsec    6.4403311265727772E-021
+ Correct abs xsec    6.4403311265727772E-021
+ Event xsec    6.4403311265727780E-021
+ Events wgts > 1:            1
+ % Cross section > 1:    2.9375134231161744E-028   4.5611217271050041E-006
+ Iteration  5   Mean: 0.3980E-19 Abs mean: 0.3980E-19   Fluctuation:  0.148E-19   0.167E-15     5.8%
+  5    0.3980E-19 0.3980E-19 +- 0.1482E-19     47.10
+ Relative summed weights:
+  0.4045E-01  0.2638E+00  0.6065E-01  0.6675E-03  0.3392E-09  0.1075E-02
+  0.3984E-01  0.4194E-01  0.2258E-01  0.3010E-02  0.1510E-06  0.2419E-10
+  0.3845E-02  0.1285E+00  0.3821E-02  0.2803E-02  0.3389E-08  0.8474E-09
+  0.1912E-02  0.1555E-02  0.4658E-02  0.1363E-02  0.1685E-08  0.4747E-04
+  0.1893E+00  0.5449E-04  0.1301E-03  0.2747E-01  0.0000E+00  0.0000E+00
+  0.1216E-04  0.3145E-03  0.5611E-05  0.1450E-02  0.1573E-13  0.2002E-08
+  0.9165E-01  0.4496E-04  0.1467E-02  0.1232E-03  0.1714E-14  0.1148E-12
+  0.4311E-01  0.2561E-02  0.4280E-04  0.1966E-01  0.2762E-08  0.4513E-11
+ Relative number of events:
+  0.5156E-01  0.5212E-01  0.4919E-01  0.5156E-01  0.6250E-03  0.5625E-03
+  0.5462E-01  0.5112E-01  0.5269E-01  0.4906E-01  0.4375E-03  0.3750E-03
+  0.5156E-01  0.5206E-01  0.5000E-01  0.4906E-01  0.1875E-03  0.5625E-03
+  0.4813E-01  0.4975E-01  0.4819E-01  0.5250E-01  0.8125E-03  0.5625E-03
+  0.1337E-01  0.1325E-01  0.8563E-02  0.8937E-02  0.0000E+00  0.0000E+00
+  0.1481E-01  0.1450E-01  0.7500E-02  0.8875E-02  0.1875E-03  0.6250E-04
+  0.1481E-01  0.1362E-01  0.9312E-02  0.7562E-02  0.6250E-04  0.6250E-04
+  0.1419E-01  0.1512E-01  0.9125E-02  0.8563E-02  0.1250E-03  0.6250E-04
+ Events:
+         825         834         787         825          10           9
+         874         818         843         785           7           6
+         825         833         800         785           3           9
+         770         796         771         840          13           9
+         214         212         137         143           0           0
+         237         232         120         142           3           1
+         237         218         149         121           1           1
+         227         242         146         137           2           1
+ Accuracy:    1.677   0.100   0.286  34.507
+ Found          275  events.
+ Wrote            6  events.
+ Actual xsec    2.9980796958610692E-020
+ Correct abs xsec    2.9980796958610692E-020
+ Event xsec    2.9980796958610692E-020
+ Events wgts > 1:            1
+ % Cross section > 1:    4.5668461612677741E-028   1.5232570927225283E-006
+
+ -------------------------------------------------------------------------------
+ Accumulated results:   Integral =  0.5675E-15
+                        Std dev  =  0.1620E-15
+                       Cross sec =  0.5675E-15
+             Chi**2 per DoF.     =     34.5069
+ -------------------------------------------------------------------------------
+-------------------------------------------------
+---------------------------
+ Results Last   3 iters: Integral =   0.2998E-19
+                     Abs integral =   0.2998E-19
+                          Std dev =   0.9379E-20
+                  Chi**2 per DoF. =     20.9205
+-------------------------------------------------
+---------------------------
+ Status  0.10000000000000001                6           5
+
+ls status:
+events.lhe
+ftn26
+input_app.txt
+results.dat
+run1_app.log

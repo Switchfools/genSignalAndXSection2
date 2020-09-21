@@ -1,5 +1,5 @@
-Script started on Sun Sep  6 12:19:52 2020
-[?1034h************************************************************
+Script started on Thu Sep 17 00:10:42 2020
+************************************************************
 *                                                          *
 *                     W E L C O M E to                     *
 *              M A D G R A P H 5 _ a M C @ N L O           *
@@ -45,17 +45,49 @@ Defined multiparticle vl = ve vm vt
 Defined multiparticle vl~ = ve~ vm~ vt~
 [1;34mPass the definition of 'j' and 'p' to 5 flavour scheme.[0m
 Defined multiparticle all = g u c d s b u~ c~ d~ s~ b~ a ve vm vt e- mu- ta- ve~ vm~ vt~ e+ mu+ ta+ t t~ z w+ h j0 ax w- n1 n2 n3
-generate p p >  ta+ ta+ ta- ta- vta~ vta j0 QCD=0 QED<=7
-[1;31mCommand "import /home/nvergara/genSignalAndXSection2/xSection/currentRun/mgFile.mg5" interrupted in sub-command:
-"generate p p >  ta+ ta+ ta- ta- vta~ vta j0 QCD=0 QED<=7" with error:
-InvalidCmd : No particle vta~ in model[0m
-[1;34mcommand not executed: [0m
-[1;34mcommand not executed: output /home/nvergara/genSignalAndXSection2/results/xSection/n1_1466.0_n2_1566.0_n3_1666.0_j0_1366.0/ -f[0m
-[1;34mcommand not executed: launch /home/nvergara/genSignalAndXSection2/results/xSection/n1_1466.0_n2_1566.0_n3_1666.0_j0_1366.0/[0m
-[1;34mcommand not executed: set mN1 1466.0[0m
-[1;34mcommand not executed: set mN2 1566.0[0m
-[1;34mcommand not executed: set mN3 1666.0[0m
-[1;34mcommand not executed: set MJ [0m
-[1;34mcommand not executed: set nevents 10000[0m
-[1;34mcommand not executed: set deltaeta 2.4[0m
-quit
+generate p p >  ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7
+INFO: Trying process: g g > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Trying process: u u~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Process has 2460 diagrams 
+INFO: Trying process: u c~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Trying process: c u~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Trying process: c c~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Process has 2460 diagrams 
+INFO: Trying process: d d~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Process has 2460 diagrams 
+INFO: Trying process: d s~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Trying process: d b~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Trying process: s d~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Trying process: s s~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Process has 2460 diagrams 
+INFO: Trying process: s b~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Process u~ u > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process u u~ > ta+ ta+ ta- ta- vt~ vt j0 
+INFO: Process c~ c > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process c c~ > ta+ ta+ ta- ta- vt~ vt j0 
+INFO: Process d~ d > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process d d~ > ta+ ta+ ta- ta- vt~ vt j0 
+INFO: Trying process: d~ b > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Process s~ s > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process s s~ > ta+ ta+ ta- ta- vt~ vt j0 
+INFO: Trying process: s~ b > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Trying process: b b~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Process has 2460 diagrams 
+INFO: Process b~ b > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process b b~ > ta+ ta+ ta- ta- vt~ vt j0 
+5 processes with 12300 diagrams generated in 204.914 s
+Total: 5 processes with 12300 diagrams
+output /home/nvergara/genSignalAndXSection2/results/xSection/n1_1466.0_n2_1566.0_n3_1666.0_j0_1366.0/ -f
+INFO: initialize a new directory: n1_1466.0_n2_1566.0_n3_1666.0_j0_1366.0 
+INFO: remove old information in n1_1466.0_n2_1566.0_n3_1666.0_j0_1366.0 
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+INFO: Organizing processes into subprocess groups 
+INFO: Generating Helas calls for process: u u~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 
+INFO: Processing color information for process: u u~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 
+INFO: Combined process c c~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 with process u u~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 
+INFO: Generating Helas calls for process: d d~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 
+INFO: Reusing existing color information for process: d d~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 
+INFO: Combined process s s~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 with process d d~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 
+INFO: Generating Helas calls for process: b b~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 

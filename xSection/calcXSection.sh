@@ -33,7 +33,7 @@ echo "set mN1 ${n1}" >> ${currentFolder}currentRun/mgFile.mg5
 echo "set mN2 ${n2}" >> ${currentFolder}currentRun/mgFile.mg5
 echo "set mN3 ${n3}" >> ${currentFolder}currentRun/mgFile.mg5
 echo "set MJ ${J0}" >> ${currentFolder}currentRun/mgFile.mg5
-echo "set nevents 10000" >> ${currentFolder}currentRun/mgFile.mg5
+echo "set nevents 500" >> ${currentFolder}currentRun/mgFile.mg5
 echo "set deltaeta 2.4" >> ${currentFolder}currentRun/mgFile.mg5
 
 #log the output for post processing
