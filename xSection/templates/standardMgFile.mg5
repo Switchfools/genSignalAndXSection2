@@ -1,5 +1,5 @@
 import model SM_HeavyN_UFO
 
-generate p p >  ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7
+generate p p > z n3 n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0
 
 output outputFolder -f
