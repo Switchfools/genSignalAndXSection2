@@ -1,4 +1,4 @@
-Script started on Wed Sep 16 23:43:46 2020
+Script started on Tue Sep 22 02:53:20 2020
 ************************************************************
 *                                                          *
 *                     W E L C O M E to                     *
@@ -45,33 +45,33 @@ Defined multiparticle vl = ve vm vt
 Defined multiparticle vl~ = ve~ vm~ vt~
 [1;34mPass the definition of 'j' and 'p' to 5 flavour scheme.[0m
 Defined multiparticle all = g u c d s b u~ c~ d~ s~ b~ a ve vm vt e- mu- ta- ve~ vm~ vt~ e+ mu+ ta+ t t~ z w+ h j0 ax w- n1 n2 n3
-generate p p >  ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7
-INFO: Trying process: g g > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Trying process: u u~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Process has 2460 diagrams 
-INFO: Trying process: u c~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Trying process: c u~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Trying process: c c~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Process has 2460 diagrams 
-INFO: Trying process: d d~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Process has 2460 diagrams 
-INFO: Trying process: d s~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Trying process: d b~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Trying process: s d~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Trying process: s s~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Process has 2460 diagrams 
-INFO: Trying process: s b~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+generate p p > z n3 n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0
+INFO: Trying process: g g > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Trying process: u u~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Process has 168 diagrams 
+INFO: Trying process: u c~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Trying process: c u~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Trying process: c c~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Process has 168 diagrams 
+INFO: Trying process: d d~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Process has 168 diagrams 
+INFO: Trying process: d s~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Trying process: d b~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Trying process: s d~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Trying process: s s~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Process has 168 diagrams 
+INFO: Trying process: s b~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
 INFO: Process u~ u > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process u u~ > ta+ ta+ ta- ta- vt~ vt j0 
 INFO: Process c~ c > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process c c~ > ta+ ta+ ta- ta- vt~ vt j0 
 INFO: Process d~ d > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process d d~ > ta+ ta+ ta- ta- vt~ vt j0 
-INFO: Trying process: d~ b > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
+INFO: Trying process: d~ b > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
 INFO: Process s~ s > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process s s~ > ta+ ta+ ta- ta- vt~ vt j0 
-INFO: Trying process: s~ b > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Trying process: b b~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1  
-INFO: Process has 2460 diagrams 
+INFO: Trying process: s~ b > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Trying process: b b~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1  
+INFO: Process has 168 diagrams 
 INFO: Process b~ b > ta+ ta+ ta- ta- vt~ vt j0 added to mirror process b b~ > ta+ ta+ ta- ta- vt~ vt j0 
-5 processes with 12300 diagrams generated in 205.000 s
-Total: 5 processes with 12300 diagrams
+5 processes with 840 diagrams generated in 171.441 s
+Total: 5 processes with 840 diagrams
 output /home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0/ -f
 INFO: initialize a new directory: n1_810.0_n2_910.0_n3_1010.0_j0_710.0 
 INFO: remove old information in n1_810.0_n2_910.0_n3_1010.0_j0_710.0 
@@ -84,4 +84,308 @@ perl: warning: Please check that your locale settings:
     are supported and installed on your system.
 perl: warning: Falling back to the standard locale ("C").
 INFO: Organizing processes into subprocess groups 
-INFO: Generating Helas calls for process: u u~ > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7 @1 
+INFO: Generating Helas calls for process: u u~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Processing color information for process: u u~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Combined process c c~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 with process u u~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Generating Helas calls for process: d d~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Reusing existing color information for process: d d~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Combined process s s~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 with process d d~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Generating Helas calls for process: b b~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Reusing existing color information for process: b b~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Creating files in directory P1_qq_llllvlvlj0 
+INFO: Generating Feynman diagrams for Process: u u~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Generating Feynman diagrams for Process: d d~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Generating Feynman diagrams for Process: b b~ > z n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0 @1 
+INFO: Finding symmetric diagrams for subprocess group qq_llllvlvlj0 
+Generated helas calls for 3 subprocesses (504 diagrams) in 3.898 s
+Wrote files for 1287 helas calls in 2.215 s
+ALOHA: aloha creates FFV1 set of routines with options: P0
+ALOHA: aloha creates FFV2 routines
+ALOHA: aloha creates FFV3 routines
+ALOHA: aloha creates VVV1 routines
+ALOHA: aloha creates FFV7 routines
+ALOHA: aloha creates FFV4 routines
+ALOHA: aloha creates FFV5 routines
+ALOHA: aloha creates FFS1 routines
+save configuration file to /home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0/Cards/me5_configuration.txt
+INFO: Use Fortran compiler gfortran 
+INFO: Use c++ compiler g++ 
+INFO: Generate jpeg diagrams 
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+INFO: Generate web pages 
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Output to directory /home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0 done.
+Type "launch" to generate events from this process, or see
+/home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0/README
+Run "open index.html" to see more information about this process.
+launch /home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0/
+************************************************************
+*                                                          *
+*                      W E L C O M E to                    *
+*             M A D G R A P H 5 _ a M C @ N L O            *
+*                      M A D E V E N T                     *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 2.6.3.2               2018-06-22         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************
+INFO: load configuration from /home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0/Cards/me5_configuration.txt  
+INFO: load configuration from /usr/local/HEP/MG5_aMC_v2_6_3_2/input/mg5_configuration.txt  
+INFO: load configuration from /home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0/Cards/me5_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+generate_events run_01
+set mN1 810.0
+[1mINFO: modify param_card information BLOCK mass with id (9900012,) set to 810.0 [0m
+set mN2 910.0
+[1mINFO: modify param_card information BLOCK mass with id (9900014,) set to 910.0 [0m
+set mN3 1010.0
+[1mINFO: modify param_card information BLOCK mass with id (9900016,) set to 1010.0 [0m
+set MJ
+[1;34mWARNING: Invalid set command MJ (need two arguments) [0m
+set nevents 500
+[1mINFO: modify parameter nevents of the run_card.dat to 500 [0m
+set deltaeta 2.4
+[1mINFO: modify parameter deltaeta of the run_card.dat to 2.4 [0m
+Do you want to edit a card (press enter to bypass editing)?
+/------------------------------------------------------------\
+|  [31m1[0m. param : [32mparam_card.dat[0m                                 |
+|  [31m2[0m. run   : [32mrun_card.dat[0m                                   |
+|  [31m3[0m. plot  : [32mplot_card.dat[0m                                  |
+\------------------------------------------------------------/
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, 3, plot, enter path]
+[1mThe answer to the previous question is not set in your input file[0m
+[1mUse 0 value[0m
+INFO: Update the dependent parameter of the param_card.dat 
+Generating 500 events with run name run_01
+survey  run_01 
+INFO: compile directory 
+compile Source Directory
+Using random number seed offset = 21
+INFO: Running Survey 
+Creating Jobs
+Working on SubProcesses
+INFO:     P1_qq_llllvlvlj0  
+INFO:  Idle: 198,  Running: 16,  Completed: 0 [ current time: 02h56 ] 
+INFO:  Idle: 197,  Running: 16,  Completed: 1 [  24.4s  ] 
+INFO:  Idle: 196,  Running: 16,  Completed: 2 [  34.2s  ] 
+INFO:  Idle: 189,  Running: 16,  Completed: 9 [  37.3s  ] 
+INFO:  Idle: 186,  Running: 16,  Completed: 12 [  42.1s  ] 
+INFO:  Idle: 184,  Running: 16,  Completed: 14 [  49.4s  ] 
+INFO:  Idle: 183,  Running: 16,  Completed: 15 [  1m 13s  ] 
+INFO:  Idle: 182,  Running: 16,  Completed: 16 [  1m 17s  ] 
+INFO:  Idle: 180,  Running: 16,  Completed: 18 [  1m 20s  ] 
+INFO:  Idle: 179,  Running: 16,  Completed: 19 [  1m 25s  ] 
+INFO:  Idle: 178,  Running: 16,  Completed: 20 [  1m 41s  ] 
+INFO:  Idle: 176,  Running: 16,  Completed: 22 [  1m 55s  ] 
+INFO:  Idle: 175,  Running: 16,  Completed: 23 [  1m 59s  ] 
+INFO:  Idle: 174,  Running: 16,  Completed: 24 [  2m 4s  ] 
+INFO:  Idle: 171,  Running: 16,  Completed: 27 [  2m 9s  ] 
+INFO:  Idle: 170,  Running: 16,  Completed: 28 [  2m 14s  ] 
+INFO:  Idle: 169,  Running: 16,  Completed: 29 [  2m 24s  ] 
+INFO:  Idle: 168,  Running: 16,  Completed: 30 [  2m 28s  ] 
+INFO:  Idle: 167,  Running: 16,  Completed: 31 [  2m 32s  ] 
+INFO:  Idle: 166,  Running: 16,  Completed: 32 [  2m 37s  ] 
+INFO:  Idle: 165,  Running: 16,  Completed: 33 [  2m 57s  ] 
+INFO:  Idle: 161,  Running: 16,  Completed: 37 [  3m 0s  ] 
+INFO:  Idle: 160,  Running: 16,  Completed: 38 [  3m 13s  ] 
+INFO:  Idle: 157,  Running: 16,  Completed: 41 [  3m 18s  ] 
+INFO:  Idle: 155,  Running: 16,  Completed: 43 [  3m 34s  ] 
+INFO:  Idle: 154,  Running: 16,  Completed: 44 [  3m 42s  ] 
+INFO:  Idle: 153,  Running: 16,  Completed: 45 [  3m 49s  ] 
+INFO:  Idle: 151,  Running: 16,  Completed: 47 [  3m 55s  ] 
+INFO:  Idle: 150,  Running: 16,  Completed: 48 [  3m 58s  ] 
+INFO:  Idle: 148,  Running: 16,  Completed: 50 [  4m 15s  ] 
+INFO:  Idle: 146,  Running: 16,  Completed: 52 [  4m 20s  ] 
+INFO:  Idle: 144,  Running: 16,  Completed: 54 [  4m 27s  ] 
+INFO:  Idle: 143,  Running: 16,  Completed: 55 [  4m 33s  ] 
+INFO:  Idle: 142,  Running: 16,  Completed: 56 [  4m 46s  ] 
+INFO:  Idle: 139,  Running: 16,  Completed: 59 [  4m 54s  ] 
+INFO:  Idle: 137,  Running: 16,  Completed: 61 [  4m 57s  ] 
+INFO:  Idle: 135,  Running: 16,  Completed: 63 [  5m 0s  ] 
+INFO:  Idle: 134,  Running: 16,  Completed: 64 [  5m 9s  ] 
+INFO:  Idle: 132,  Running: 16,  Completed: 66 [  5m 23s  ] 
+INFO:  Idle: 130,  Running: 16,  Completed: 68 [  5m 35s  ] 
+INFO:  Idle: 127,  Running: 16,  Completed: 71 [  5m 42s  ] 
+INFO:  Idle: 125,  Running: 16,  Completed: 73 [  5m 46s  ] 
+INFO:  Idle: 122,  Running: 16,  Completed: 76 [  5m 50s  ] 
+INFO:  Idle: 119,  Running: 16,  Completed: 79 [  6m 3s  ] 
+INFO:  Idle: 118,  Running: 16,  Completed: 80 [  6m 9s  ] 
+INFO:  Idle: 116,  Running: 16,  Completed: 82 [  6m 13s  ] 
+INFO:  Idle: 112,  Running: 16,  Completed: 86 [  6m 35s  ] 
+INFO:  Idle: 111,  Running: 16,  Completed: 87 [  6m 38s  ] 
+INFO:  Idle: 109,  Running: 16,  Completed: 89 [  6m 42s  ] 
+INFO:  Idle: 106,  Running: 16,  Completed: 92 [  6m 45s  ] 
+INFO:  Idle: 103,  Running: 16,  Completed: 95 [  6m 50s  ] 
+INFO:  Idle: 102,  Running: 16,  Completed: 96 [  6m 54s  ] 
+INFO:  Idle: 100,  Running: 16,  Completed: 98 [  6m 57s  ] 
+INFO:  Idle: 98,  Running: 16,  Completed: 100 [  7m 5s  ] 
+INFO:  Idle: 96,  Running: 16,  Completed: 102 [  7m 9s  ] 
+INFO:  Idle: 93,  Running: 16,  Completed: 105 [  7m 13s  ] 
+INFO:  Idle: 91,  Running: 16,  Completed: 107 [  7m 17s  ] 
+INFO:  Idle: 87,  Running: 16,  Completed: 111 [  7m 24s  ] 
+INFO:  Idle: 84,  Running: 16,  Completed: 114 [  7m 29s  ] 
+INFO:  Idle: 82,  Running: 16,  Completed: 116 [  7m 32s  ] 
+INFO:  Idle: 80,  Running: 16,  Completed: 118 [  7m 41s  ] 
+INFO:  Idle: 79,  Running: 16,  Completed: 119 [  7m 46s  ] 
+INFO:  Idle: 76,  Running: 16,  Completed: 122 [  7m 52s  ] 
+INFO:  Idle: 74,  Running: 16,  Completed: 124 [  7m 59s  ] 
+INFO:  Idle: 73,  Running: 16,  Completed: 125 [  8m 23s  ] 
+INFO:  Idle: 72,  Running: 16,  Completed: 126 [  8m 29s  ] 
+INFO:  Idle: 70,  Running: 16,  Completed: 128 [  8m 34s  ] 
+INFO:  Idle: 69,  Running: 16,  Completed: 129 [  8m 57s  ] 
+INFO:  Idle: 67,  Running: 16,  Completed: 131 [  9m 3s  ] 
+INFO:  Idle: 65,  Running: 16,  Completed: 133 [  9m 7s  ] 
+INFO:  Idle: 63,  Running: 16,  Completed: 135 [  9m 25s  ] 
+INFO:  Idle: 61,  Running: 16,  Completed: 137 [  9m 31s  ] 
+INFO:  Idle: 60,  Running: 16,  Completed: 138 [  9m 36s  ] 
+INFO:  Idle: 58,  Running: 16,  Completed: 140 [  9m 42s  ] 
+INFO:  Idle: 57,  Running: 16,  Completed: 141 [  9m 52s  ] 
+INFO:  Idle: 56,  Running: 16,  Completed: 142 [  10m 6s  ] 
+INFO:  Idle: 54,  Running: 16,  Completed: 144 [  10m 12s  ] 
+INFO:  Idle: 53,  Running: 16,  Completed: 145 [  10m 27s  ] 
+INFO:  Idle: 52,  Running: 16,  Completed: 146 [  10m 38s  ] 
+INFO:  Idle: 51,  Running: 16,  Completed: 147 [  10m 43s  ] 
+INFO:  Idle: 50,  Running: 16,  Completed: 148 [  10m 48s  ] 
+INFO:  Idle: 47,  Running: 16,  Completed: 151 [  11m 3s  ] 
+INFO:  Idle: 46,  Running: 16,  Completed: 152 [  11m 9s  ] 
+INFO:  Idle: 45,  Running: 16,  Completed: 153 [  11m 19s  ] 
+INFO:  Idle: 43,  Running: 16,  Completed: 155 [  11m 24s  ] 
+INFO:  Idle: 42,  Running: 16,  Completed: 156 [  11m 28s  ] 
+INFO:  Idle: 41,  Running: 16,  Completed: 157 [  11m 35s  ] 
+INFO:  Idle: 39,  Running: 16,  Completed: 159 [  11m 46s  ] 
+INFO:  Idle: 38,  Running: 16,  Completed: 160 [  11m 54s  ] 
+INFO:  Idle: 36,  Running: 16,  Completed: 162 [  12m 2s  ] 
+INFO:  Idle: 35,  Running: 16,  Completed: 163 [  12m 9s  ] 
+INFO:  Idle: 34,  Running: 16,  Completed: 164 [  12m 15s  ] 
+INFO:  Idle: 33,  Running: 16,  Completed: 165 [  12m 22s  ] 
+INFO:  Idle: 31,  Running: 16,  Completed: 167 [  12m 30s  ] 
+INFO:  Idle: 29,  Running: 16,  Completed: 169 [  12m 44s  ] 
+INFO:  Idle: 28,  Running: 16,  Completed: 170 [  12m 48s  ] 
+INFO:  Idle: 26,  Running: 16,  Completed: 172 [  12m 52s  ] 
+INFO:  Idle: 24,  Running: 16,  Completed: 174 [  12m 56s  ] 
+INFO:  Idle: 23,  Running: 16,  Completed: 175 [  13m 2s  ] 
+INFO:  Idle: 21,  Running: 16,  Completed: 177 [  13m 10s  ] 
+INFO:  Idle: 19,  Running: 16,  Completed: 179 [  13m 15s  ] 
+INFO:  Idle: 17,  Running: 16,  Completed: 181 [  13m 23s  ] 
+INFO:  Idle: 15,  Running: 16,  Completed: 183 [  13m 27s  ] 
+INFO:  Idle: 14,  Running: 16,  Completed: 184 [  13m 34s  ] 
+INFO:  Idle: 13,  Running: 16,  Completed: 185 [  13m 39s  ] 
+INFO:  Idle: 11,  Running: 16,  Completed: 187 [  13m 46s  ] 
+INFO:  Idle: 9,  Running: 16,  Completed: 189 [  13m 52s  ] 
+INFO:  Idle: 6,  Running: 16,  Completed: 192 [  13m 55s  ] 
+INFO:  Idle: 4,  Running: 16,  Completed: 194 [  13m 59s  ] 
+INFO:  Idle: 3,  Running: 16,  Completed: 195 [  14m 2s  ] 
+INFO:  Idle: 1,  Running: 16,  Completed: 197 [  14m 11s  ] 
+INFO:  Idle: 0,  Running: 15,  Completed: 199 [  14m 15s  ] 
+INFO:  Idle: 0,  Running: 12,  Completed: 202 [  14m 19s  ] 
+INFO:  Idle: 0,  Running: 9,  Completed: 205 [  14m 24s  ] 
+INFO:  Idle: 0,  Running: 3,  Completed: 211 [  14m 27s  ] 
+INFO:  Idle: 0,  Running: 1,  Completed: 213 [  14m 34s  ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 214 [  14m 38s  ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 214 [  14m 38s  ] 
+INFO: End survey 
+refine 500
+Creating Jobs
+INFO: Refine results to 500 
+INFO: Generating 500.0 unweigthed events. 
+INFO: Effective Luminosity 2951.10616047 pb^-1 
+INFO: need to improve 24 channels 
+Current estimate of cross-section: 0.203313594081 +- 0.00653033781225
+    P1_qq_llllvlvlj0 
+INFO:  Idle: 8,  Running: 16,  Completed: 0 [ current time: 03h11 ] 
+INFO:  Idle: 7,  Running: 16,  Completed: 1 [  3.4s  ] 
+INFO:  Idle: 0,  Running: 16,  Completed: 8 [  7s  ] 
+INFO:  Idle: 0,  Running: 6,  Completed: 18 [  13.5s  ] 
+INFO:  Idle: 0,  Running: 3,  Completed: 21 [  17.1s  ] 
+INFO:  Idle: 0,  Running: 2,  Completed: 22 [  24.9s  ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 24 [  1m 39s  ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 24 [  1m 39s  ] 
+INFO: Combining runs 
+INFO: finish refine 
+refine 500
+Creating Jobs
+INFO: Refine results to 500 
+INFO: Generating 500.0 unweigthed events. 
+INFO: Effective Luminosity 2867.88940186 pb^-1 
+INFO: need to improve 1 channels 
+Current estimate of cross-section: 0.209213088765 +- 0.0023892333357
+    P1_qq_llllvlvlj0 
+INFO:  Idle: 1,  Running: 0,  Completed: 0 [ current time: 03h12 ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 1 [  10.6s  ] 
+INFO:  Idle: 0,  Running: 0,  Completed: 1 [  10.6s  ] 
+INFO: Combining runs 
+INFO: finish refine 
+INFO: Combining Events 
+  === Results Summary for run: run_01 tag: tag_1 ===
+
+     Cross-section :   0.2092 +- 0.002389 pb
+     Nb of events :  500
+ 
+fail
+[1;34mFailed to access python version of LHAPDF: If the python interface to LHAPDF is available on your system, try adding its location to the PYTHONPATH environment variable and theLHAPDF library location to LD_LIBRARY_PATH (linux) or DYLD_LIBRARY_PATH (mac os x).[0m
+INFO: can not run systematics since can not link python to lhapdf 
+INFO: Creating Plots for parton level 
+INFO: Plots for parton level generated, see /home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0/HTML/run_01/plots_parton.html 
+INFO: End Plots for parton level 
+store_events
+INFO: Storing parton level results 
+INFO: End Parton 
+reweight -from_cards
+decay_events -from_cards
+INFO: storing files of previous run 
+INFO: Done 
+quit
+INFO:  
+more information in /home/nvergara/genSignalAndXSection2/results/xSection/n1_810.0_n2_910.0_n3_1010.0_j0_710.0/index.html
+quit

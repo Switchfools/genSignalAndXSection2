@@ -1,6 +1,6 @@
 import model SM_HeavyN_UFO
 
-generate p p >  ta+ ta+ ta- ta- vt~ vt j0 QCD=0 QED<=7
+generate p p > z n3 n3 w+ w- > ta+ ta+ ta- ta- vt~ vt j0 QCD=0
 
 output /home/nvergara/genSignalAndXSection2/results/xSection/n1_2000.0_n2_2100.0_n3_2200.0_j0_1900.0/ -f
 launch /home/nvergara/genSignalAndXSection2/results/xSection/n1_2000.0_n2_2100.0_n3_2200.0_j0_1900.0/
